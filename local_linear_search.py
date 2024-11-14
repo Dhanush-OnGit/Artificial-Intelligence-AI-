@@ -26,7 +26,7 @@ def graphColouring(graph, m, i, colour):
             
             return True
         return False
-    for j in range(1, m + 1):
+    for j in range(i, m + 1):
         colour[i] = j
 
         if graphColouring(graph, m, i + 1, colour):
