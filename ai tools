@@ -1,0 +1,12 @@
+print("******PREPOSITIONAL LOGIC INFERENCES FOR AI TASKS********")
+def negation(p):
+  return not p
+  print("\u0332".join("NEGATION"))
+  print("p result")
+  for p in [True, False]:
+   a = negation(p)
+   print(p, a)
+  def conjunction(p, q):
+   return p and q
+   print("\u0332".join("CONJUCTION(AND        OPERATION)"))
+print("p q result")
